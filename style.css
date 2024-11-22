@@ -57,33 +57,29 @@ header nav a:hover{
     justify-content: center;
     align-items: center;
 }
-#grande{
+#img-caixa{
     padding-left: 3rem;
     width: 50vh;
     display: flex;
     align-items: center;
     padding: 2rem;
 }
-
 #texto-historia{
     width: 50%;
     text-align: center;
     padding: 0.5rem;
 }
-
 #texto-historia h2{
     color: rgb(255, 255, 255);
     text-align: center;
     font-size: 30px;
     padding-bottom: 1.5rem;
 }
-
 #texto-historia p {
     color: rgb(255, 255, 255);
     font-size: 13px;
     gap: 2rem;
 }
-
 #gameplays{
     background-image: url(./img/cenario3.png);
     background-repeat: no-repeat;
@@ -94,10 +90,10 @@ header nav a:hover{
     
 }
 
-#gameplays p{
+/* #gameplays p{
     background-color: aliceblue;
     justify-content: center;
-}
+} */
 
 #gameplay-img1{
     background-color: rgba(0, 0, 0, 0.575);
@@ -114,7 +110,6 @@ header nav a:hover{
     font-size: 18px;
     align-items: center;
 }
-
 #gameplay1{
     width: 40vh;
     height: 25vh;
@@ -122,7 +117,6 @@ header nav a:hover{
     border-radius: 7vh;
     align-items: center;
 }
-
 #gameplay-img2{
     background-color: rgba(0, 0, 0, 0.575);
     border-radius: 5vh;
@@ -138,14 +132,12 @@ header nav a:hover{
     text-decoration-line:underline;
     font-size: 18px;
 }
-
 #gameplay2{
     width: 40vh;
     height: 25vh;
     padding: 1rem;
     border-radius: 7vh;
 }
-
 #gameplay-img3{
     background-color: rgba(0, 0, 0, 0.575);
     border-radius: 5vh;
@@ -160,7 +152,6 @@ header nav a:hover{
     text-decoration-line:underline;
     font-size: 18px;
 }
-
 #gameplay3{
     width: 40vh;
     height: 25vh;
@@ -169,8 +160,64 @@ header nav a:hover{
 }
 
 #skills{
-    background-color: rgb(235, 222, 71);
+    /* background-image: url(./img/cenario4.png);
+    background-repeat: no-repeat;
+    background-size: cover; */
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+
+    
 }
+#p-skills{
+    background-color: rgba(0, 0, 0, 0.575);
+    width: 80vh;
+    height: 25vh;
+    border-radius: 8vh;
+    align-content: space-around;
+}
+
+#habilidades{
+    background-color: rgba(0, 0, 0, 0.575);
+    width: 50vh;
+    height: 35vh;
+    border-radius: 8vh;
+    gap: 10rem;
+}
+
 #fanarts{
-    background-color: rgb(75, 30, 126);
+    background-color: rgb(0, 0, 0);
+    padding: 5rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+#fanart1{
+    width: 50vh;
+    height: 80vh;
+}
+
+#fanarts-2-3{
+    padding: 5rem;
+    width: 35%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#fanart2{
+    width: 45vh;
+    height: 30vh;
+    display: flex;
+}
+
+#fanart3{
+    width: 45vh;
+    height: 30vh;
+    display: flex;
+}
+
+#fanart4{
+    width: 50vh;
+    height: 80vh;
 }
