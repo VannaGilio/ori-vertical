@@ -62,18 +62,20 @@ header nav a:hover{
     width: 50vh;
     display: flex;
     align-items: center;
+    padding: 2rem;
 }
 
 #texto-historia{
     width: 50%;
     text-align: center;
-    padding: 1rem;
+    padding: 0.5rem;
 }
 
 #texto-historia h2{
     color: rgb(255, 255, 255);
     text-align: center;
     font-size: 30px;
+    padding-bottom: 1.5rem;
 }
 
 #texto-historia p {
@@ -87,9 +89,17 @@ header nav a:hover{
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
-    /* flex-direction: row; */
-    justify-content: center;
+    justify-content: space-evenly;
+    padding: 35vh;
     align-items: center;
+}
+
+#gameplays h2{
+    height: 5vh;
+    color: rgb(255, 255, 255);
+    background-color: aliceblue;
+    display: fixed;
+    font-size: 30px;
 }
 
 #gameplay-img1{
@@ -97,7 +107,16 @@ header nav a:hover{
     border-radius: 5vh;
     width: 40vh;
     height: 45vh;
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#gameplay1{
+    width: 40vh;
+    height: 25vh;
+    padding: 1rem;
+    border-radius: 7vh;
 }
 
 #gameplay-img2{
