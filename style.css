@@ -91,15 +91,12 @@ header nav a:hover{
     display: flex;
     justify-content: space-evenly;
     padding: 35vh;
-    align-items: center;
+    
 }
 
-#gameplays h2{
-    height: 5vh;
-    color: rgb(255, 255, 255);
+#gameplays p{
     background-color: aliceblue;
-    display: fixed;
-    font-size: 30px;
+    justify-content: center;
 }
 
 #gameplay-img1{
@@ -111,12 +108,19 @@ header nav a:hover{
     flex-direction: column;
     align-items: center;
 }
+#gameplay-img1 a{
+    color: rgb(116, 125, 125);
+    text-decoration-line:underline;
+    font-size: 18px;
+    align-items: center;
+}
 
 #gameplay1{
     width: 40vh;
     height: 25vh;
     padding: 1rem;
     border-radius: 7vh;
+    align-items: center;
 }
 
 #gameplay-img2{
@@ -124,6 +128,22 @@ header nav a:hover{
     border-radius: 5vh;
     width: 40vh;
     height: 45vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: center;
+}
+#gameplay-img2 a{
+    color: rgb(116, 125, 125);
+    text-decoration-line:underline;
+    font-size: 18px;
+}
+
+#gameplay2{
+    width: 40vh;
+    height: 25vh;
+    padding: 1rem;
+    border-radius: 7vh;
 }
 
 #gameplay-img3{
@@ -131,6 +151,21 @@ header nav a:hover{
     border-radius: 5vh;
     width: 40vh;
     height: 45vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#gameplay-img3 a{
+    color: rgb(116, 125, 125);
+    text-decoration-line:underline;
+    font-size: 18px;
+}
+
+#gameplay3{
+    width: 40vh;
+    height: 25vh;
+    padding: 1rem;
+    border-radius: 7vh;
 }
 
 #skills{
