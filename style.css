@@ -1,5 +1,6 @@
 *{
     margin:0;
+    padding: 0;
     box-sizing: border-box;
 }
 a{
@@ -107,7 +108,7 @@ header nav a:hover{
 #gameplay-img1 a{
     color: rgb(116, 125, 125);
     text-decoration-line:underline;
-    font-size: 18px;
+    font-size: 0.5rem;
     align-items: center;
 }
 #gameplay1{
