@@ -20,7 +20,7 @@ header{
 header nav ul{
     display: flex;
     justify-content: space-between;
-    padding: 16px;
+    padding: 20px; 
 }
 header nav a{
     color: white;
@@ -28,25 +28,95 @@ header nav a{
     transition: 1s; /*tempo de transição de cor*/
 }
 header nav a:hover{
-    background-color: rgb(69, 124, 203);
-    color: black;
+    background-color: rgb(106, 38, 120);
+    color: rgb(232, 170, 237);
     border-radius: 8px;
 }
 .grupo{
     height: 100vh;
 }
-#vermelho{
-    background-color: #ff6b6b;
+#inicio{
+    background-image: url(./img/cenario.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-#verde{
-    background-color: darkseagreen;
+#historia{
+    background-image: url(./img/cenario2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-#azul{
-    background-color: #54a0ff;
+#caixa-historia{
+    background-color: rgba(0, 0, 0, 0.575);
+    width: 110vh;
+    height: 50vh;
+    border-radius: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-#amarelo{
+#grande{
+    padding-left: 3rem;
+    width: 50vh;
+    display: flex;
+    align-items: center;
+}
+
+#texto-historia{
+    width: 50%;
+    text-align: center;
+    padding: 1rem;
+}
+
+#texto-historia h2{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 30px;
+}
+
+#texto-historia p {
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+    gap: 2rem;
+}
+
+#gameplays{
+    background-image: url(./img/cenario3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;
+    align-items: center;
+}
+
+#gameplay-img1{
+    background-color: rgba(0, 0, 0, 0.575);
+    border-radius: 5vh;
+    width: 40vh;
+    height: 45vh;
+    
+}
+
+#gameplay-img2{
+    background-color: rgba(0, 0, 0, 0.575);
+    border-radius: 5vh;
+    width: 40vh;
+    height: 45vh;
+}
+
+#gameplay-img3{
+    background-color: rgba(0, 0, 0, 0.575);
+    border-radius: 5vh;
+    width: 40vh;
+    height: 45vh;
+}
+
+#skills{
     background-color: rgb(235, 222, 71);
 }
-#roxo{
+#fanarts{
     background-color: rgb(75, 30, 126);
 }
