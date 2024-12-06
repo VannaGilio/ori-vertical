@@ -108,7 +108,7 @@ header nav a:hover{
 #gameplay-img1 a{
     color: rgb(116, 125, 125);
     text-decoration-line:underline;
-    font-size: 0.5rem;
+    font-size: 1.5rem;
     align-items: center;
 }
 #gameplay1{
@@ -131,7 +131,7 @@ header nav a:hover{
 #gameplay-img2 a{
     color: rgb(116, 125, 125);
     text-decoration-line:underline;
-    font-size: 18px;
+    font-size: 1.5rem;
 }
 #gameplay2{
     width: 40vh;
@@ -151,39 +151,13 @@ header nav a:hover{
 #gameplay-img3 a{
     color: rgb(116, 125, 125);
     text-decoration-line:underline;
-    font-size: 18px;
+    font-size: 1.5rem;
 }
 #gameplay3{
     width: 40vh;
     height: 25vh;
     padding: 1rem;
     border-radius: 7vh;
-}
-
-#skills{
-    /* background-image: url(./img/cenario4.png);
-    background-repeat: no-repeat;
-    background-size: cover; */
-    background-color: antiquewhite;
-    display: flex;
-    flex-direction: column;
-
-    
-}
-#p-skills{
-    background-color: rgba(0, 0, 0, 0.575);
-    width: 80vh;
-    height: 25vh;
-    border-radius: 8vh;
-    align-content: space-around;
-}
-
-#habilidades{
-    background-color: rgba(0, 0, 0, 0.575);
-    width: 50vh;
-    height: 35vh;
-    border-radius: 8vh;
-    gap: 10rem;
 }
 
 #fanarts{
